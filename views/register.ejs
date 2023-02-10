@@ -1,0 +1,85 @@
+
+    <div class="container mt-5" style="background-color: skyblue; ">
+        <div class="row">
+            <h3 style="background-color: red; padding-right: 10px;">REGISTER</h3>
+            <div class="col-12">
+                <form action="/register" method="post">
+                    <div class="row " style="margin-left: 4em;">
+                        <div class="col-4">
+                            <label>firstname</label>
+                            <input type="text" name="firstName" class="form-control">
+                        </div>
+                        <div class="col-4">
+                            <label>lastname</label>
+                            <input type="text" name="lastName" class="form-control">
+                        </div>
+                        <div class="col-4">
+                            <label>contact</label>
+                            <input type="text" name="contact" class="form-control">
+                        </div>
+                        <div class="col-4">
+                            <label>email</label>
+                            <input type="email" name="email" class="form-control">
+                        </div>
+                        <div class="col-4">
+                            <label for="">Password</label>
+                            <input type="password" name="password" class="form-control">
+                        </div>
+                        <div class="col-4">
+                            <label>dob</label>
+                            <input type="date" name="dob" class="form-control">
+                        </div>
+                        <div class="col-4">
+                            <label>City</label>
+                            <select name="city" class="form-control">
+                                <option value="">Select City</option>
+                                <option value="indore">Indore</option>
+                                <option value="mumbai">Mumbai</option>
+                                <option value="gujrat">Gujrat</option>
+                                <option value="delhi">Delhi</option>
+                                <option value="bhopal">Bhopal</option>
+                            </select>
+                        </div>
+                        <div class="col-4">
+                            <label>state</label>
+                            <select name="state" class="form-control">
+                                <option value="">select state</option>
+                                <option value="madhaya pradesh">madhaya pradesh</option>
+                                <option value="chhattisgarh">chhattisgarh</option>
+                                <option value="uttar pradesh">uttar pradesh</option>
+                                <option value="maharastra">maharastra</option>
+                                <option value="keral">keral</option>
+                                <option value="delhi">delhi</option>
+                            </select>
+                        </div>
+                        <div class="col-4 mt-2">
+                            <label for="">gender</label><br>
+                            <input type="radio" name="gender" value="male">male
+                            <input type="radio" name="gender" value="female">female
+                            <input type="radio" name="gender" value="other">other
+                        </div>
+                        <div class="col-8">
+                            <label>address</label>
+                            <textarea cols="5" rows="2" name="address"  class="form-control"></textarea>
+                        </div>
+                        <div class="col-8 mt-2">
+                            <label>hobbies</label> <br>
+                            <input type="checkbox" name="hobbies" value="cricket"> cricket
+                            <input type="checkbox" name="hobbies" value="football"> football
+                            <input type="checkbox" name="hobbies" value="acting">   acting
+                            <input type="checkbox" name="hobbies" value="singing"> singing
+                            <input type="checkbox" name="hobbies" value="lawyer"> lawyer
+                            <input type="checkbox" name="hobbies" value="youtube"> youtube
+                        </div>
+                        <div class="col-4">
+                        </div>
+                        <div class="col-4">
+                        </div>
+                        <div>
+                            <button type="submit" class="mt-3 btn btn-danger" style="padding: 3px 40px; border-radius: 5px; margin-left: 20em;">Register</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
